@@ -26,7 +26,6 @@ int main(){
         }
         cout << "\n";
 
-        //ladba vizszint
         for(int i = 0; i < y-1; i++){
             cout << "|";
             for(int j = 0; j < width-2; j++){  
