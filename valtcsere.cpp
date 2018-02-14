@@ -11,7 +11,7 @@ int main()
 
   a=b-a;
   b=b-a;
-  a=b+a
+  a=b+a;
 
     cout<< a <<" "<< b <<endl;
 
