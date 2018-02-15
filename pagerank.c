@@ -1,3 +1,5 @@
+//tutor: Nemes Bence
+
 #include <stdio.h>
 #include <math.h>
 
