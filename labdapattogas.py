@@ -1,3 +1,4 @@
+#tutor: Fekete Attila
 from time import sleep
 import os
 
