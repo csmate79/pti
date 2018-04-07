@@ -1,4 +1,4 @@
-//turor: Tóth Norbert
+//tutor: Tóth Norbert
 
 #include <iostream>
 #include <dirent.h>
