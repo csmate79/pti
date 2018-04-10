@@ -21,7 +21,7 @@ main(void)
 {
 yyin= fopen("myfile.txt","r");
 yylex();
-total=betu+szam;
+total=betuk+szam;
 printf(" A fajl tartalmaz ...");
 printf("\n\t%d sort.", sorok);
 printf("\n\t%d szot.",szavak);
