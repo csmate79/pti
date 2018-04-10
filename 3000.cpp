@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int szokoev(int ev, int nap)
+int szev(int ev, int nap)
 {
   while(ev<3000)
   {
@@ -28,7 +28,7 @@ int main()
 
   const std::tm * time_out = std::localtime(&time_temp);
   string a;
-  switch (szokoev(ev,static_cast<int>(time_out->tm_wday)))
+  switch (szev(ev,static_cast<int>(time_out->tm_wday)))
   {
     case 0: a="Vasarnap";
     break;
