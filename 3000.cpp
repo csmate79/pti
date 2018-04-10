@@ -21,15 +21,7 @@ int szokoev(int ev, int nap)
 
 int main()
 {
-  int ev = 1998, honap = 5, nap = 21;
-
-  /*cout<<"Ev: ";
-  cin>>ev;
-  cout<<"Honap: \t";
-  cin>>honap;
-  cout<<"Nap: \t";
-  cin>>nap;
-*/
+  int ev = 1998, honap = 5, nap = 21; //születési dátumod
 
   std::tm time_in = {0,0,0, nap, honap -1, ev -1900};
   std::time_t time_temp = std::mktime(&time_in);
