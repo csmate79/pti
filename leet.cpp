@@ -24,14 +24,12 @@ void enterGameLoop()
 {
      do
     {
-    //Asks for a word form the user
     word = askWord("\n\nIrja be a forditando szoveget.\n\n>");
 
-    //Converts e's to 3's
+
     word = convertWord(word);
 
-    //Displays converted word and asks if they want to go again
-    cout << word << "\n\nThe size of the word/phrase is " << word.size() << " characters\n\nDo you want to enter another word y/n?\n\n>";
+    cout << word << "\n\nDo you want to enter another word y/n?\n\n>";
 
     getline(cin,again);
     }
